@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    background-color: black;
+    height: 800px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.box{
+    width: 300px;
+    height: 400px;
+    align-self: center;
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+    border: 1px black solid;
+    filter: grayscale(100%);
+
+}
+.www{
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+}
+.box1{
+    width: 300px;
+    height: 280px;
+    background-color: rgba(128, 128, 128, 0.5);
+    position: absolute;
+    bottom: -600px;
+    transition: 1s;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+.box:hover{
+    filter: grayscale(0%);
+
+}
+.box:hover .box1{
+    bottom: 0px;
+
+}
+

@@ -1,0 +1,30 @@
+.main{
+    width: 500px;
+    position: relative;
+    background-color: red;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 5px;
+}
+.box:nth-child(3){
+    background-color: black;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+.main .box:first-child{
+    background-color: yellow;
+}
+main .box:last-child{
+   align-self: center;
+    background-color: dodgerblue;
+}
+.main2{
+    width: 1500px;
+    height: 500px;
+    background-color: black;
+}

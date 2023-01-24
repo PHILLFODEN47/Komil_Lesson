@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header_kafe{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    box-shadow: #2a2a2a 0 0 10px 0;
+}
+.header_img{
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kafe_img{
+    width: 170px;
+    height: 55px;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    list-style: none;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.section_start{
+    position: relative;
+    display: flex;
+    z-index: 9;
+}
+.section_img{
+    display: flex;
+    height: 100vh;
+    background-image: url(https://technext.github.io/klassy-cafe/assets/images/top-left-bg.jpg);
+    width: 449px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.newline h4{
+    font-family: "Dancing Script";
+    color: white;
+    font-size: 54px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.newline h1{
+    color: white;
+}
+.pictures{
+    background-image: url(https://technext.github.io/klassy-cafe/assets/images/slide-03.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+.about_2{
+    width: 1349px;
+    height: 100vh;
+    background: white;
+    margin-top: 20px;
+    padding: 100px 0px 0px 0px;
+    position: relative;
+    display: flex;
+}
+.about_block{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+hr{
+    width: 30px;
+    background: red;
+    height: 1.5px;
+    border: none;
+}
+.about_menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+}
+.line{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 130px;
+}
+.line h1{
+    color: #f95849;
+}
+hr{
+    width: 30px;
+    background: red;
+    height: 1.5px;
+    border: none;
+}
+.about_p{
+    font-size: 14px;
+    font-family: Poppins, SansSerif;
+    line-height: 25px;
+}
+.about_2 img{
+    margin: 10px;
+}
+.about_2 h2{
+    line-height: 40px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #2a2a2a;
+}
+.pictures1{
+    margin-left: 40px;
+}
+.our_menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 140px;
+    color: red;
+    flex-direction: column;
+}
+
+.dessert{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    transition: 0.7s;
+}
+.dessert1{
+    background-image: url(https://technext.github.io/klassy-cafe/assets/images/menu-item-02.jpg);
+    width: 240px;
+    height: 400px;
+    transition: 0.7s;
+}
+.desserto{
+    width: 240px;
+    height: 240px;
+    background-color: #f95849;
+    text-align: center;
+    position: absolute;
+    bottom: -220px;
+    transition: 0.7s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: "Calibri Light";
+}
+.www:hover .desserto {
+   bottom: 0;
+}
+.cost{
+    width: 70px;
+    height: 70px;
+    background-color: #f95849;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.dessert1{
+    background-image: url(https://technext.github.io/klassy-cafe/assets/images/menu-item-02.jpg);
+    width: 240px;
+    height: 400px;
+    transition: 0.7s;
+}
+.dessert2{
+    background-image: url(https://technext.github.io/klassy-cafe/assets/images/menu-item-03.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 240px;
+    height: 400px;
+    transition: 0.7s;
+}
+.dessert3{
+    background-image: url(https://technext.github.io/klassy-cafe/assets/images/menu-item-04.jpg);
+    width: 240px;
+    height: 400px;
+    transition: 0.7s;
+}
+.dessert4{
+    background-image: url(https://technext.github.io/klassy-cafe/assets/images/menu-item-05.jpg);
+    width: 240px;
+    height: 400px;
+    transition: 0.7s;
+}
+.dessert5{
+    background-image: url(https://technext.github.io/klassy-cafe/assets/images/menu-item-01.jpg);
+    width: 240px;
+    height: 400px;
+    transition: 0.7s;
+}
+.chefs{
+    height: 100vh;
+}
+.write{
+    margin: 50px;
+    font-family: "Calibri Light";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ww{
+   color: #f95849;
+}
+.over_ch{
+    display: flex;
+    justify-content: space-around;
+}
+.ochefs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height: 430px;
+    border: 1px solid #afafaf;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+}
+.ochefs img{
+    z-index: -1;
+}
+.rrr{
+    width: 160px;
+    height: 60px;
+    margin-left: 110px;
+    margin-top: 170px;
+}
+.icon{
+    opacity: 0;
+    position: absolute;
+    top: -500px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.63);
+}
+.eee:hover .icon{
+    top: 0;
+    opacity: 1;
+}
+
+.registration{
+    display: flex;
+    margin-top: 120px;
+    padding: 120px 0;
+    background-image: url(https://technext.github.io/klassy-cafe/assets/images/reservation-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.reg{
+    display: flex;
+    border: none;
+    color: white;
+    align-items: center;
+    font-family: "Calibri Light";
+    margin: 50px;
+}
+.row{
+    color: white;
+    font-size: 25px;
+    font-family: "Calibri Light";
+}
+.two{
+    margin-left: 50px;
+    font-family: "Calibri Light";
+    display: flex;
+}
+.call{
+    width: 60px;
+    height: 60px;
+}
+.call img{
+    width: 60px;
+    height: 60px;
+}
+.one{
+    width: 330px;
+    height: 220px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: red;
+}
+.regm{
+    width: 510px;
+    height: 545px;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.your{
+    margin-left: 30px;
+}
+.your input{
+    width: 210px;
+    height: 46px;
+    margin: 8px;
+}
+.sec{
+    height: 100vh;
+}
+
+
+
+

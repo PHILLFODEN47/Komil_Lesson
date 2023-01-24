@@ -1,0 +1,489 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+    box-shadow: #2a2a2a 0 0 10px 0;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    list-style: none;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.newline {
+    display: flex;
+    height: 100vh;
+    background-image: url("https://technext.github.io/klassy-cafe/assets/images/top-left-bg.jpg");
+    width: 449px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.newline h4 {
+    font-family: 'Dancing Script';
+    color: #fff;
+    font-size: 54px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.newline h1 {
+    color: white;
+}
+
+.picture {
+    background-image: url("https://technext.github.io/klassy-cafe/assets/images/slide-03.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+.start {
+    display: flex;
+    position: relative;
+    z-index: 9;
+}
+
+.about2 {
+    width: 1349px;
+    height: 100vh;
+    background: white;
+    margin-top: 20px;
+    padding: 100px 0px 0px 0px;
+    position: relative;
+    display: flex;
+
+
+}
+
+.about2 h1 {
+    color: #fb5849;
+
+}
+
+hr {
+    width: 30px;
+    background: red;
+    height: 1.5px;
+    border: none;
+}
+
+.line {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 130px;
+}
+
+.about2_block {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.about2 h2 {
+    line-height: 40px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #2a2a2a;
+}
+
+.about2 p {
+    font-size: 14px;
+    font-family: Poppins, SansSerif;
+    line-height: 25px;
+}
+
+.picture1 {
+    margin-left: 40px;
+}
+
+.about2 img {
+    margin: 10px;
+}
+
+.our_menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 140px;
+    color: red;
+    flex-direction: column;
+
+}
+
+.about_menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+
+}
+
+.dessert1 {
+    background-image: url("https://technext.github.io/klassy-cafe/assets/images/menu-item-02.jpg");
+    width: 240px;
+    height: 400px;
+    transition: 0.7s;
+}
+
+.dessert2 {
+    background-image: url("https://technext.github.io/klassy-cafe/assets/images/menu-item-03.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 240px;
+    height: 400px;
+    transition: 0.7s;
+}
+
+.dessert3 {
+    background-image: url("https://technext.github.io/klassy-cafe/assets/images/menu-item-04.jpg");
+    width: 240px;
+    height: 400px;
+    transition: 0.7s;
+}
+
+.dessert4 {
+    background-image: url("https://technext.github.io/klassy-cafe/assets/images/menu-item-05.jpg");
+    width: 240px;
+    height: 400px;
+    transition: 0.7s;
+}
+
+.dessert5 {
+    background-image: url("https://technext.github.io/klassy-cafe/assets/images/menu-item-01.jpg");
+    width: 240px;
+    height: 400px;
+    transition: 0.7s;
+}
+
+.desserto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    transition: 0.7s;
+
+}
+
+.dessert {
+    width: 240px;
+    height: 240px;
+    background-color: #f95849;
+    text-align: center;
+    position: absolute;
+    bottom: -220px;
+    transition: 0.7s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: "Calibri Light";
+}
+
+.dessert1:hover .dessert {
+    bottom: 0px;
+    transition: 0.7s;
+}
+
+.dessert2:hover .dessert {
+    bottom: 0px;
+    transition: 0.7s;
+}
+
+.dessert3:hover .dessert {
+    bottom: 0px;
+    transition: 0.7s;
+}
+
+.dessert4:hover .dessert {
+    bottom: 0px;
+    transition: 0.7s;
+}
+
+.dessert5:hover .dessert {
+    bottom: 0px;
+    transition: 0.7s;
+}
+
+.cost {
+    width: 70px;
+    height: 70px;
+    background-color: #f95849;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.chefs {
+    height: 100vh;
+}
+
+.our_chefs {
+    color: #f95849;
+
+}
+
+.write {
+    margin: 50px;
+    font-family: "Calibri Light";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.over_ch {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.ochefs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height: 430px;
+    border: 1px solid #afafaf;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.ochefs:before {
+    display: block;
+    content: '';
+    width: 360px;
+    height: 341px;
+    color: black;
+    position: absolute;
+    top: 20px;
+    transition: 0.2s;
+}
+
+.ochefs:hover {
+    border: red 1px solid;
+
+}
+
+.ochefs:hover:before {
+    background-color: rgba(52, 52, 52, 0.87);
+
+}
+
+.ochefs img {
+    z-index: -1;
+}
+
+.fase img {
+    width: 150px;
+    height: 60px;
+
+}
+
+.fase {
+    position: absolute;
+    top: -500px;
+}
+
+.ochefs:hover .fase {
+    top: 155px;
+}
+
+.registration {
+    background-image: url("https://technext.github.io/klassy-cafe/assets/images/reservation-bg.jpg");
+    height: 100vh;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.reg {
+    display: flex;
+    border: none;
+    color: white;
+    align-items: center;
+    font-family: "Calibri Light";
+    margin: 50px;
+}
+
+.row {
+    color: white;
+    font-size: 25px;
+    font-family: "Calibri Light";
+
+}
+
+.two {
+    display: flex;
+    margin-left: 50px;
+    font-family: "Calibri Light";
+    display: flex;
+}
+
+.one {
+    width: 255px;
+    height: 160px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: red;
+}
+
+.call img {
+    width: 60px;
+    height: 60px;
+}
+
+.regm {
+    width: 510px;
+    height: 545px;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.registration {
+    display: flex;
+}
+
+.your {
+    margin-left: 30px;
+}
+
+.your input, select {
+    width: 210px;
+    height: 46px;
+    margin: 8px;
+}
+
+.rrr h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.your button {
+    width: 451px;
+    height: 40px;
+    background-color: #f95849;
+    border: none;
+    border-radius: 5px;
+}
+
+.week {
+    height: 100vh;
+    width: 100%;
+}
+
+.week h6 {
+    position: relative;
+    font-size: 15px;
+    color: #fb5849;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 110px;
+}
+
+.week h2 {
+    line-height: 40px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    color: #2a2a2a;
+    text-align: center;
+    font-family: monospace;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.img img {
+    margin: 10px;
+}
+
+.breakfast, .lunch, .dinner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Calibri Light";
+}
+
+.salt {
+    display: flex;
+
+}
+
+.type {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.salt, .text {
+    margin: 20px;
+}
+.end{
+    display: flex;
+    justify-content: space-around;
+    height: 53px;
+    width: 100%;
+    align-items: center;
+    margin-top: 60px;
+    padding: 50px 0;
+    background-color: #fb5849;
+}
+.end{
+    color: white;
+}

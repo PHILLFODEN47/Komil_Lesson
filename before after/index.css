@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+
+
+
+}
+
+div:before {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    transition: 1s;
+    top: -50px;
+    left: -50px;
+    border-radius: 50%;
+
+
+}
+
+div:hover:before {
+    border-radius: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+}
+div:first-child:before{
+    background: url("https://s0.rbk.ru/v6_top_pics/media/img/6/54/756431221546546.jpg")center/cover;
+}
+div:nth-child(2):before{
+    background: url("https://motor.ru/imgs/2022/03/03/10/5274800/c2a0a40e0b2c71ced6c468b9f2496b02e3a75d5d.jpg") center/cover;
+}
+div:nth-child(3):before{
+    background: url("https://mercedes-benz-uzbekistan.uz/wp-content/uploads/2022/02/1167f.webp") center/cover;
+}

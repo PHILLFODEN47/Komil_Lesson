@@ -1,0 +1,72 @@
+body{
+    height: 900px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+.box{
+    width: 400px;
+    height: 900px;
+    background-color: rgba(30, 144, 255, 0.67);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+.box1{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.aaa{
+    border-radius: 20px;
+    width: 300px;
+    height: 30px;
+
+
+}
+.bbb{
+    width: 150px;
+    align-self: start;
+}
+.ccc{
+    margin-bottom: 20px;
+}
+.eee{
+    width: 200px;
+    border-radius: 10px;
+    align-self: start;
+}
+.rrr{
+    align-self: start;
+    margin-left: 25px;
+}
+.fff{
+    color: yellowgreen;
+}
+.ttt{
+    text-align: start;
+}
+.vvv{
+    background-image: linear-gradient(to left,white,blue);
+    color: white;
+}
+.ddd{
+    width: 260px;
+}
+input::placeholder{
+    color: white;
+}
+label{
+    background-color: white;
+}

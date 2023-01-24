@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.vaz2106{
+    width: 1000px;
+    height: 700px;
+
+}
+@keyframes box1 {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
+}
+.box1{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    display: flex;
+    left: 95px;
+    bottom: 184px;
+    animation-name: box1;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.box2{
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    display: flex;
+    right: 193px;
+    bottom: 188px;
+    animation-name: box1;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
