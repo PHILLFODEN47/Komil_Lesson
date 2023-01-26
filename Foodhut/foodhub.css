@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 100vh;
+
+}
+.hed_menu{
+    width: 100%;
+    background-color: #2a2a2a;
+    height: 25%;
+
+
+}
+.menu{
+    display: flex;
+    justify-content: center;
+
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+ul a{
+    margin: 20px;
+}
